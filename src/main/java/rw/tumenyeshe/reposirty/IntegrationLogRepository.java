@@ -1,2 +1,9 @@
-package rw.tumenyeshe.reposirty;public interface IntegrationLogRepository {
+package rw.tumenyeshe.reposirty;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import rw.tumenyeshe.model.IntegrationLog;
+
+import java.util.UUID;
+
+public interface IntegrationLogRepository extends JpaRepository<IntegrationLog, UUID> {
 }
