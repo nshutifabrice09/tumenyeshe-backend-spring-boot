@@ -1,10 +1,7 @@
 package rw.tumenyeshe.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -13,16 +10,19 @@ import java.util.UUID;
 @AllArgsConstructor
 @Getter
 @Setter
+@Builder
+@Data
 @Entity
-@Table(name= "faultReport")
+@Table(name= "faultReports")
 public class FaultReport {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private UUID id;
     private String reporterName;
     private String contactInfo;
-    @Enumerated(EnumType.STRING)
-    private String category ;
+
+    @ManyToOne
+    private Category category;
     private String description;
     private double latitude;
     private double longitude;

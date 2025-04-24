@@ -4,5 +4,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;
 
-public interface AdminActingLog extends JpaRepository <AdminActingLog,UUID> {
+public interface AdminActingLogRepository extends JpaRepository <AdminActingLogRepository,UUID> {
 }
