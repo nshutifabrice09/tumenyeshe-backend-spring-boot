@@ -5,7 +5,7 @@ import rw.tumenyeshe.model.Notification;
 import java.util.List;
 import java.util.UUID;
 
-public interface NotificationServices {
+public interface NotificationService {
     List<Notification> getAllNotification();
     Notification getNotificationById(UUID id);
     Notification saveNotification (Notification notification);

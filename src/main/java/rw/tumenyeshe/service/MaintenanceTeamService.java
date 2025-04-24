@@ -1,2 +1,15 @@
-package rw.tumenyeshe.service;public interface MaintenanceTeamService {
+package rw.tumenyeshe.service;
+
+import rw.tumenyeshe.model.MaintenanceTeam;
+
+import java.util.List;
+import java.util.UUID;
+
+public interface MaintenanceTeamService {
+
+    List<MaintenanceTeam> getAllMaintenanceTeam();
+    MaintenanceTeam getMaintenanceTeamById(UUID id);
+    MaintenanceTeam saveMaintenanceTeam (MaintenanceTeam maintenanceTeam);
+    MaintenanceTeam updateMaintenanceTeam (UUID id);
+    void deleteById (UUID id);
 }
