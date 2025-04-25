@@ -11,12 +11,11 @@ import java.util.UUID;
 @Getter
 @Setter
 @Builder
-@Data
 @Entity
 @Table(name= "reportAnalytics")
 public class ReportAnalytics {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
     private String category;

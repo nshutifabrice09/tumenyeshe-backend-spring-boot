@@ -11,12 +11,11 @@ import java.util.UUID;
 @Getter
 @Setter
 @Builder
-@Data
 @Entity
 @Table(name= "reportComments")
 public class ReportComment {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     @ManyToOne
     private FaultReport faultReport;

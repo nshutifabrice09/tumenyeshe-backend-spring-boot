@@ -12,12 +12,11 @@ import java.util.UUID;
 @Getter
 @Setter
 @Builder
-@Data
 @Entity
 @Table(name= "statusHistories")
 public class StatusHistory {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
     @ManyToOne

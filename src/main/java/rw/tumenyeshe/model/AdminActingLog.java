@@ -10,13 +10,12 @@ import java.util.UUID;
 @AllArgsConstructor
 @Getter
 @Setter
-@Builder
 @Data
 @Entity
 @Table(name= "adminActionLogs")
 public class AdminActingLog {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
     private String adminUsername;

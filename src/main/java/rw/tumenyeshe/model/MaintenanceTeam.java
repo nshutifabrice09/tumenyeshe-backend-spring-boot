@@ -11,11 +11,10 @@ import java.util.UUID;
 @Setter
 @Entity
 @Builder
-@Data
 @Table(name= "maintenanceTeams")
 public class MaintenanceTeam {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
     private String teamName;
     private String phoneNumber;

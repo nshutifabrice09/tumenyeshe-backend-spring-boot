@@ -10,12 +10,11 @@ import java.util.UUID;
 @Getter
 @Setter
 @Builder
-@Data
 @Entity
 @Table(name= "locations")
 public class Location {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
     private double latitude;

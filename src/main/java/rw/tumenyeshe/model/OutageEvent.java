@@ -11,12 +11,11 @@ import java.util.UUID;
 @Getter
 @Setter
 @Builder
-@Data
 @Entity
 @Table(name= "outageEvents")
 public class OutageEvent {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
 
     private String title;

@@ -38,4 +38,9 @@ public class AssignmentController {
     public Assignment updateAssignment(@PathVariable ("id") UUID id, @RequestBody Assignment assignment){
         return assignmentService.updateAssignment(id, assignment);
     }
+
+    @DeleteMapping("/delete/assignment/{id}")
+    public void deleteById (@PathVariable ("id") UUID id){
+        assignmentService.deleteById(id);
+    }
 }
