@@ -1,4 +1,10 @@
 package rw.tumenyeshe.exception;
 
-public class ZoneNotFoundExcpetion {
+import java.util.UUID;
+
+public class ZoneNotFoundException extends RuntimeException{
+
+    public ZoneNotFoundException (UUID id){
+        super("Could not find a Zone with id "+id);
+    }
 }
