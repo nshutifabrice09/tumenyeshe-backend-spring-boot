@@ -1,4 +1,4 @@
-package rw.tumenyeshe;
+package rw.tumenyeshe.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -16,5 +16,5 @@ public class AdminActingLogController {
         this.adminActingLogService = adminActingLogService;
     }
 
-    
+
 }
