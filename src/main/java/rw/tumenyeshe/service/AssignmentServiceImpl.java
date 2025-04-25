@@ -24,9 +24,10 @@ public class AssignmentServiceImpl implements AssignmentService{
     }
 
     @Override
-    public Assignment updateAssignment(UUID id) {
+    public Assignment updateAssignment(UUID id, Assignment assignment) {
         return null;
     }
+
 
     @Override
     public void deleteById(UUID id) {

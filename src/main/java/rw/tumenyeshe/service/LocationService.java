@@ -10,6 +10,6 @@ public interface LocationService {
     List<Location> getAllLocation();
     Location getLocationById(UUID id);
     Location saveLocation (Location location);
-    Location updateLocation (UUID id);
+    Location updateLocation (UUID id, Location location);
     void deleteById (UUID id);
 }

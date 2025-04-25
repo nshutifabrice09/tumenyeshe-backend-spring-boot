@@ -9,6 +9,6 @@ public interface ZoneService {
     List<Zone> getAllZone();
     Zone getZoneById(UUID id);
     Zone saveZone (Zone zone);
-    Zone updateZone (UUID id);
+    Zone updateZone (UUID id, Zone zone);
     void deleteById (UUID id);
 }

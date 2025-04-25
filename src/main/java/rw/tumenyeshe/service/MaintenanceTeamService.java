@@ -10,6 +10,6 @@ public interface MaintenanceTeamService {
     List<MaintenanceTeam> getAllMaintenanceTeam();
     MaintenanceTeam getMaintenanceTeamById(UUID id);
     MaintenanceTeam saveMaintenanceTeam (MaintenanceTeam maintenanceTeam);
-    MaintenanceTeam updateMaintenanceTeam (UUID id);
+    MaintenanceTeam updateMaintenanceTeam (UUID id, MaintenanceTeam maintenanceTeam);
     void deleteById (UUID id);
 }

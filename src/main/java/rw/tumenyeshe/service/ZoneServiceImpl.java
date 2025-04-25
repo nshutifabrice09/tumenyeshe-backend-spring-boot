@@ -24,7 +24,7 @@ public class ZoneServiceImpl implements ZoneService {
     }
 
     @Override
-    public Zone updateZone(UUID id) {
+    public Zone updateZone(UUID id, Zone zone) {
         return null;
     }
 

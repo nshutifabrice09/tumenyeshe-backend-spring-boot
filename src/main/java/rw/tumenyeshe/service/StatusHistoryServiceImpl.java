@@ -24,7 +24,7 @@ public class StatusHistoryServiceImpl implements StatusHistoryService{
     }
 
     @Override
-    public StatusHistory updateStatusHistory(UUID id) {
+    public StatusHistory updateStatusHistory(UUID id, StatusHistory statusHistory) {
         return null;
     }
 

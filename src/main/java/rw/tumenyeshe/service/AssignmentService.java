@@ -9,6 +9,6 @@ public interface AssignmentService {
     List<Assignment> getAllAssignments();
     Assignment getAssignmentById(UUID id);
     Assignment saveAssignment (Assignment assignment);
-    Assignment updateAssignment (UUID id);
+    Assignment updateAssignment (UUID id, Assignment assignment);
     void deleteById (UUID id);
 }

@@ -25,7 +25,7 @@ public class IntegrationLogServiceImpl implements IntegrationLogService{
     }
 
     @Override
-    public IntegrationLog updateIntegrationLog(UUID id) {
+    public IntegrationLog updateIntegrationLog(UUID id, IntegrationLog integrationLog) {
         return null;
     }
 

@@ -24,7 +24,7 @@ public class NotificationServiceImpl implements NotificationService {
     }
 
     @Override
-    public Notification updateNotification(UUID id) {
+    public Notification updateNotification(UUID id, Notification notification) {
         return null;
     }
 

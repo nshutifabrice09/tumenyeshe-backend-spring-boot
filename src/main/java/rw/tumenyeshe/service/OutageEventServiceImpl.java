@@ -24,7 +24,7 @@ public class OutageEventServiceImpl implements OutageEventService{
     }
 
     @Override
-    public OutageEvent updateOutageEvent(UUID id) {
+    public OutageEvent updateOutageEvent(UUID id, OutageEvent outageEvent) {
         return null;
     }
 

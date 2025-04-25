@@ -10,6 +10,6 @@ public interface CategoryService {
     List<Category> getAllCategory();
     Category getCategoryById(UUID id);
     Category saveCategory (Category category);
-    Category updateCategory (UUID id);
+    Category updateCategory (UUID id, Category category);
     void deleteById (UUID id);
 }

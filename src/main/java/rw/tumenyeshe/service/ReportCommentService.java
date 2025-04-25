@@ -10,6 +10,6 @@ public interface ReportCommentService {
     List<ReportComment> getAllReportComment();
     ReportComment getReportCommentById(UUID id);
     ReportComment saveReportComment (ReportComment reportComment);
-    ReportComment updateReportComment (UUID id);
+    ReportComment updateReportComment (UUID id, ReportComment reportComment);
     void deleteById (UUID id);
 }

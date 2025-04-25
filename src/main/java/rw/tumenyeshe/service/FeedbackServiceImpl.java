@@ -24,7 +24,7 @@ public class FeedbackServiceImpl implements FeedbackService{
     }
 
     @Override
-    public Feedback updateFeedback(UUID id) {
+    public Feedback updateFeedback(UUID id, Feedback feedback) {
         return null;
     }
 

@@ -9,6 +9,6 @@ public interface FeedbackService {
     List<Feedback> getAllFeedback();
     Feedback getFeedbackById(UUID id);
     Feedback saveFeedback (Feedback feedback);
-    Feedback updateFeedback (UUID id);
+    Feedback updateFeedback (UUID id, Feedback feedback);
     void deleteById (UUID id);
 }

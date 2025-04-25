@@ -24,7 +24,7 @@ public class AdminActingLogController {
         return adminActingLogService.saveAdminActingLog(adminActingLog);
     }
     @GetMapping("/adminActingLogs")
-    public List <AdminActingLog> getAdminActingLogsList(){
+    public List <AdminActingLog> adminActingLogsList(){
         return adminActingLogService.getAllAdminActingLogs();
     }
     @GetMapping("/adminActingLog/{id}")

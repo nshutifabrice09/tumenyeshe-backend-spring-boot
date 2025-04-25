@@ -23,7 +23,7 @@ public class CategoryServiceImpl implements CategoryService{
     }
 
     @Override
-    public Category updateCategory(UUID id) {
+    public Category updateCategory(UUID id, Category category) {
         return null;
     }
 

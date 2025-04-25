@@ -9,6 +9,6 @@ public interface UserService {
     List<User> getAllUser();
     User getUserById(UUID id);
     User saveUser (User user);
-    User updateUser (UUID id);
+    User updateUser (UUID id, User user);
     void deleteById (UUID id);
 }

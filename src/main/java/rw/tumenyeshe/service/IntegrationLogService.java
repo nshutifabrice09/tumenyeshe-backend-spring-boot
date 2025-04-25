@@ -10,6 +10,6 @@ public interface IntegrationLogService {
     List<IntegrationLog> getAllIntegrationLog();
     IntegrationLog getIntegrationLogById(UUID id);
     IntegrationLog saveIntegrationLog (IntegrationLog integrationLog);
-    IntegrationLog updateIntegrationLog (UUID id);
+    IntegrationLog updateIntegrationLog (UUID id, IntegrationLog integrationLog);
     void deleteById (UUID id);
 }

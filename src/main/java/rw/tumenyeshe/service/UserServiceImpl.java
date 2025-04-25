@@ -24,7 +24,7 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User updateUser(UUID id) {
+    public User updateUser(UUID id, User user) {
         return null;
     }
 

@@ -24,7 +24,7 @@ public class MaintenanceTeamServiceImpl implements MaintenanceTeamService{
     }
 
     @Override
-    public MaintenanceTeam updateMaintenanceTeam(UUID id) {
+    public MaintenanceTeam updateMaintenanceTeam(UUID id, MaintenanceTeam maintenanceTeam) {
         return null;
     }
 

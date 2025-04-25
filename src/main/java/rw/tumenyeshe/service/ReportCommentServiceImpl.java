@@ -24,7 +24,7 @@ public class ReportCommentServiceImpl implements ReportCommentService{
     }
 
     @Override
-    public ReportComment updateReportComment(UUID id) {
+    public ReportComment updateReportComment(UUID id, ReportComment reportComment) {
         return null;
     }
 

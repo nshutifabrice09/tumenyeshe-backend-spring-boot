@@ -10,6 +10,6 @@ public interface OutageEventService {
     List<OutageEvent> getAllOutageEvent();
     OutageEvent getOutageEventById(UUID id);
     OutageEvent saveOutageEvent (OutageEvent outageEvent);
-    OutageEvent updateOutageEvent (UUID id);
+    OutageEvent updateOutageEvent (UUID id, OutageEvent outageEvent);
     void deleteById (UUID id);
 }

@@ -24,7 +24,7 @@ public class ReportAnalyticsServiceImpl implements ReportAnalyticsService{
     }
 
     @Override
-    public ReportAnalytics updateReportAnalytics(UUID id) {
+    public ReportAnalytics updateReportAnalytics(UUID id, ReportAnalytics reportAnalytics) {
         return null;
     }
 

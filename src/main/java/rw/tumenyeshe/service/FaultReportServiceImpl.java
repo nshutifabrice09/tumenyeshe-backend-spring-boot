@@ -24,7 +24,7 @@ public class FaultReportServiceImpl implements FaultReportService{
     }
 
     @Override
-    public FaultReport updateFaultReport(UUID id) {
+    public FaultReport updateFaultReport(UUID id, FaultReport faultReport) {
         return null;
     }
 

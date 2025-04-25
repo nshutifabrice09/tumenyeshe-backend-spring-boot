@@ -24,7 +24,7 @@ public class LocationServiceImpl implements LocationService{
     }
 
     @Override
-    public Location updateLocation(UUID id) {
+    public Location updateLocation(UUID id, Location location) {
         return null;
     }
 
