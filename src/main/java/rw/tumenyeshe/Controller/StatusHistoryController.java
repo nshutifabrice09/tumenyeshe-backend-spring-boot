@@ -2,7 +2,10 @@ package rw.tumenyeshe.Controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
+import rw.tumenyeshe.model.StatusHistory;
 import rw.tumenyeshe.service.StatusHistoryService;
 
 @RestController
@@ -15,4 +18,10 @@ public class StatusHistoryController {
     public StatusHistoryController (StatusHistoryService statusHistoryService){
         this.statusHistoryService = statusHistoryService;
     }
+
+    @PostMapping("/statusHistory")
+    public StatusHistory saveStatusHistory (@RequestBody StatusHistory statusHistory){
+        return statusHistoryService.saveStatusHistory(statusHistory);
+    }
+
 }
